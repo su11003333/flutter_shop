@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_shop/config/index.dart';
 
-class kBigButton extends StatelessWidget {
+class KBigButton extends StatelessWidget {
   String text;
   Function onPressed;
 
