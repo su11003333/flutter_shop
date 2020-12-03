@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_shop/component/show_message.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_shop/component/small_button.dart';
+import 'package:flutter_shop/component/item_text_field.dart';
 
 void main() {
   runApp(MyApp());
@@ -59,6 +60,14 @@ class _MyHomePageState extends State<MyHomePage> {
               onPressed: () {
                 print('點擊了小按鈕');
               },
+            ),
+            ItemTextField(
+              icon: Icon(Icons.person),
+              controller: TextEditingController(),
+              focusNode: FocusNode(),
+              title: '用戶名',
+              hintText: '請輸入用戶名',
+              obscureText: false,
             ),
             Text(
               'You have pushed the button this many times:',
