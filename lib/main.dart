@@ -3,6 +3,7 @@ import 'package:flutter_shop/component/show_message.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_shop/component/small_button.dart';
 import 'package:flutter_shop/component/item_text_field.dart';
+import 'package:flutter_shop/component/logo_container.dart';
 
 void main() {
   runApp(MyApp());
@@ -76,6 +77,7 @@ class _MyHomePageState extends State<MyHomePage> {
               '$_counter',
               style: Theme.of(context).textTheme.headline4,
             ),
+            LogoContainer(),
           ],
         ),
       ),
